@@ -1,0 +1,75 @@
+.heroimage {
+    text-align: center;
+}
+.card-body {
+    justify-content: center;
+}
+.socialmediaicons {
+    color: black;
+}
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* hover */
+.socialmediaicons li a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* visited */
+.socialmediaicons {
+    color: black;
+}
+.socialmediaicons a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* selected link */
+.socialmediaicons li a:active {
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+
+
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    background-image: url("/mobilefriendlyfinal/freeimg/vinylparallax.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax h2 {
+    font-size: 5rem;
+    padding-top: 25%;
+  }
+  
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 400px) {
+    .socialmediaicons {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .socialmediaicons {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 995) {
+    .carousel-inner {
+        max-width: 1280;
+      }
+    .socialmediaicons {
+        font-size: 2.5rem;
+    }
+}
